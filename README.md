@@ -1,6 +1,7 @@
 # Garden Meter
 
 Collect all relevant environmental data for your garden with an ESP32 microcontroller.
+![WhatsApp Image 2025-05-30 at 08 57 09](https://github.com/user-attachments/assets/0191f693-eb11-441f-a6a1-fcf082d37919)
 
 ## Hardware Requirements
 
