@@ -1,57 +1,57 @@
 # Garden Meter
 
-Sammeln Sie alle relevanten Umweltdaten für Ihren Garten mit einem ESP32-Mikrocontroller.
+Collect all relevant environmental data for your garden with an ESP32 microcontroller.
 
-## Hardware-Anforderungen
+## Hardware Requirements
 
-- ESP32 Entwicklungsboard
-- DHT11 Temperatur- und Luftfeuchtigkeitssensor
-- Bodenfeuchtesensor
+- ESP32 development board
+- DHT11 temperature and humidity sensor
+- Soil moisture sensor
 - Photoresistor (LDR)
-- Breadboard und Verbindungskabel
+- Breadboard and connecting wires
 
 ## Installation
 
-1. Klonen Sie das Repository:
+1. Clone the repository:
 ```bash
 git clone https://github.com/Jacody/garden-meter.git
 cd garden-meter
 ```
 
-2. Öffnen Sie das Projekt in der Arduino IDE oder PlatformIO
+2. Open the project in Arduino IDE or PlatformIO
 
-## Konfiguration
+## Configuration
 
-1. Kopieren Sie die Template-Header-Datei:
+1. Copy the template header file:
 ```bash
 cp config_template.h config.h
 ```
 
-2. Bearbeiten Sie `config.h` und tragen Sie Ihre eigenen Werte ein:
-   - WLAN-SSID und Passwort
-   - API-Schlüssel (falls benötigt)
-   - Server-Adressen (falls benötigt)
+2. Edit `config.h` and enter your own values:
+   - WiFi SSID and password
+   - API keys (if needed)
+   - Server addresses (if needed)
 
-**Wichtig:** Die Datei `config.h` wird nicht in Git committed und sollte Ihre echten Zugangsdaten enthalten.
+**Important:** The `config.h` file is not committed to Git and should contain your real credentials.
 
-## Verwendung
+## Usage
 
-1. Laden Sie den Code auf Ihren ESP32 hoch
-2. Öffnen Sie den seriellen Monitor, um die IP-Adresse zu sehen
-3. Besuchen Sie die IP-Adresse in Ihrem Browser
-4. Das Dashboard zeigt alle Sensordaten in Echtzeit an
+1. Upload the code to your ESP32
+2. Open the serial monitor to see the IP address
+3. Visit the IP address in your browser
+4. The dashboard shows all sensor data in real-time
 
-## Sensoren
+## Sensors
 
-- **Bodenfeuchte**: Misst die Feuchtigkeit des Bodens
-- **Lichtintensität**: Misst die Lichtstärke in W/m²
-- **Temperatur**: Umgebungstemperatur in °C
-- **Luftfeuchtigkeit**: Relative Luftfeuchtigkeit in %
+- **Soil Moisture**: Measures soil moisture content
+- **Light Intensity**: Measures light intensity in W/m²
+- **Temperature**: Ambient temperature in °C
+- **Humidity**: Relative humidity in %
 
-## Beitragen
+## Contributing
 
-1. Forken Sie das Repository
-2. Erstellen Sie einen Feature-Branch
-3. Committen Sie Ihre Änderungen
-4. Pushen Sie den Branch
-5. Erstellen Sie einen Pull Request
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push the branch
+5. Create a Pull Request
